@@ -76,3 +76,18 @@ button {
 .span-two {
   grid-column: span 2;
 }
+
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #333;
+  margin: 4rem 0;
+}
+
+.link {
+  color: #333;
+}
+
+.link:link .link:visited .link:hover .link:active {
+  color: #333;
+}
