@@ -30,7 +30,6 @@ h1 {
 
 .grid {
   display: grid;
-  justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 7.5rem);
 
