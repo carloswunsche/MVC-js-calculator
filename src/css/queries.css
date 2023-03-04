@@ -1,0 +1,35 @@
+/*75EM. BELOW 1200px: Landscape Tablets or close to Laptops (1024px Laptops)*/
+@media (max-width: 44em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* 59EM. BELOW 944px: Portrait Tablets*/
+/* @media (max-width: 59em) {} */
+
+
+/* 44 EM. BELOW 704px: Smaller Tablets*/
+/* @media (max-width: 44em) {} */
+
+
+/* 34 EM. BELOW 544px: Mobile */
+@media (max-width: 34em) {
+  header {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+}
+
+@media (max-width:27em) {
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 0;
+  }
+
+}
