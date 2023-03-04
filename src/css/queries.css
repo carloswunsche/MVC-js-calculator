@@ -26,17 +26,21 @@
 }
 
 @media (max-width:27em) {
+  body {
+    background: #333;
+  }
+
   .wrapper {
     margin: 0 auto;
     width: 100%;
     border-radius: 0;
-    height: 100vh;
+    height: 85vh;
     border: 4px solid #666;
   }
 
   .grid {
     grid-auto-columns: auto;
-    height: 90%;
+    height: 100%;
     grid-template-rows: repeat(6, 1fr);
   }
 }
