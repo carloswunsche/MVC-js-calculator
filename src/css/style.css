@@ -4,6 +4,7 @@ body {
   background: -webkit-linear-gradient(90deg, rgba(20, 84, 203, 0.6643032212885154) 0%, rgba(0, 215, 255, 0.5578606442577031) 100%);
   background: linear-gradient(90deg, rgba(20, 84, 203, 0.6643032212885154) 0%, rgba(0, 215, 255, 0.5578606442577031) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1454cb", endColorstr="#00d7ff", GradientType=1);
+
   touch-action: manipulation;
 }
 
@@ -71,6 +72,11 @@ button {
   font-weight: 600;
   color: #333;
   cursor: pointer;
+}
+
+button:hover {
+  color: rgb(20, 84, 203);
+  background-color: #eee;
 }
 
 .span-two {
