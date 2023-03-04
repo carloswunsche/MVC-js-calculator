@@ -5,9 +5,7 @@ body {
 .wrapper {
   width: 30rem;
   height: 45rem;
-  margin: 20% auto;
-  /* border: 2px solid grey;
-  border-radius: 20px; */
+  margin: 0 auto;
 }
 
 .grid {
